@@ -43,7 +43,7 @@
 			return $arreglo;
 		}
 
-		// Hacer consultas en la DB modificar, consultas, eliminar y crear 
+		// Hacer consultas en la DB modificar, consultas, eliminar y crear  
 		public function ejecutar( $sql )
 		{
 			mysql_query( $sql, $this -> conexion );
